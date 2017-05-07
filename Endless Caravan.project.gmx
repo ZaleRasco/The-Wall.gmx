@@ -5,9 +5,29 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_ground</sprite>
+    <sprite>sprites\spr_tank</sprite>
+    <sprite>sprites\spr_archer</sprite>
+    <sprite>sprites\spr_wizard</sprite>
+    <sprite>sprites\spr_specter</sprite>
+    <sprite>sprites\spr_monster</sprite>
+    <sprite>sprites\spr_healer</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_tank</object>
+    <object>objects\obj_healer</object>
+    <object>objects\obj_archer</object>
+    <object>objects\obj_wizard</object>
+    <object>objects\obj_ground</object>
+    <object>objects\obj_monster</object>
+    <object>objects\obj_specter</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room_</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
