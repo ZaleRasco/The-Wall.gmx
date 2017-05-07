@@ -13,6 +13,7 @@
     <sprite>sprites\spr_specter</sprite>
     <sprite>sprites\spr_monster</sprite>
     <sprite>sprites\spr_healer</sprite>
+    <sprite>sprites\spr_control</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -24,9 +25,12 @@
     <object>objects\obj_ground</object>
     <object>objects\obj_monster</object>
     <object>objects\obj_specter</object>
+    <object>objects\obj_control</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room_</room>
+    <room>rooms\room_mistmeadow</room>
+    <room>rooms\room_kinknot</room>
+    <room>rooms\room_ftslaughterdale</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
