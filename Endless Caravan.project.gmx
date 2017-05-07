@@ -14,6 +14,14 @@
     <sprite>sprites\spr_monster</sprite>
     <sprite>sprites\spr_healer</sprite>
     <sprite>sprites\spr_control</sprite>
+    <sprite>sprites\spr_armor</sprite>
+    <sprite>sprites\spr_human</sprite>
+    <sprite>sprites\gob_boss_walk</sprite>
+    <sprite>sprites\gob_boss_smash</sprite>
+    <sprite>sprites\sprite10</sprite>
+    <sprite>sprites\spr_gobbo</sprite>
+    <sprite>sprites\spr_bunny</sprite>
+    <sprite>sprites\spr_house</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
