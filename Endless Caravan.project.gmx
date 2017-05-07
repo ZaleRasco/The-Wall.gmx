@@ -6,19 +6,20 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprites name="Class_Sprites">
+      <sprite>sprites\spr_specter</sprite>
+      <sprite>sprites\spr_healer</sprite>
+      <sprite>sprites\spr_wizard</sprite>
+      <sprite>sprites\spr_archer</sprite>
+      <sprite>sprites\spr_tank</sprite>
+    </sprites>
     <sprite>sprites\spr_ground</sprite>
-    <sprite>sprites\spr_tank</sprite>
-    <sprite>sprites\spr_archer</sprite>
-    <sprite>sprites\spr_wizard</sprite>
-    <sprite>sprites\spr_specter</sprite>
     <sprite>sprites\spr_monster</sprite>
-    <sprite>sprites\spr_healer</sprite>
     <sprite>sprites\spr_control</sprite>
     <sprite>sprites\spr_armor</sprite>
     <sprite>sprites\spr_human</sprite>
-    <sprite>sprites\gob_boss_walk</sprite>
-    <sprite>sprites\gob_boss_smash</sprite>
-    <sprite>sprites\sprite10</sprite>
+    <sprite>sprites\spr_gob_boss_walk</sprite>
+    <sprite>sprites\spr_gob_boss_smash</sprite>
     <sprite>sprites\spr_gobbo</sprite>
     <sprite>sprites\spr_bunny</sprite>
     <sprite>sprites\spr_house</sprite>
@@ -26,14 +27,18 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\obj_tank</object>
-    <object>objects\obj_healer</object>
-    <object>objects\obj_archer</object>
-    <object>objects\obj_wizard</object>
+    <objects name="Class_Objects">
+      <object>objects\obj_tank</object>
+      <object>objects\obj_archer</object>
+      <object>objects\obj_wizard</object>
+      <object>objects\obj_specter</object>
+      <object>objects\obj_healer</object>
+    </objects>
+    <objects name="Monster_Objects">
+      <object>objects\obj_monster_control</object>
+      <object>objects\obj_monster_rabbit</object>
+    </objects>
     <object>objects\obj_ground</object>
-    <object>objects\obj_monster</object>
-    <object>objects\obj_specter</object>
-    <object>objects\obj_control</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_mistmeadow</room>
